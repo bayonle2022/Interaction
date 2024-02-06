@@ -1,0 +1,114 @@
+body{
+background-color: hsl(216, 12%, 8%) ;
+justify-content: center;
+display: flex;
+font-family: "Overpass";
+
+}
+
+h2{
+    padding-top: 20px; padding-left: 20px;
+}
+
+
+button{
+    width: 300px;
+    height: 40px;
+    background-color:  hsl(25, 97%, 53%);
+    border-radius: 20px;
+    position: relative; left: 20px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+.main-box{
+    height: 350px;
+    width: 350px;
+    background-color:  hsl(213, 19%, 18%);
+    color: white;
+    justify-content: center;
+    content: "";
+    position: absolute; bottom: 250px;
+ text-align: justify;
+ border-radius: 20px;
+  
+}
+.star{
+    position: relative;top: 6px;
+}
+
+.text{
+    width: 80%;
+    color: rgb(176, 173, 173);
+    font-size: 12px;
+    padding-left: 20px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(212, 14%, 21%);
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.number{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:hsl(212, 14%, 21%) ;
+    text-align: center;
+    color: rgb(176, 173, 173);
+    justify-content: center;
+    cursor:pointer;
+}
+.one, .two, .three, .four, .five{
+    margin-left: 20px;
+}
+.to{
+    position:relative;top: -4px;
+}
+
+
+.Thank{
+    height: 350px;
+    width: 350px;
+    background-color:  hsl(213, 19%, 18%);
+    color: white;
+    justify-content: center;
+    content: "";
+    position: absolute; bottom: 250px;
+ text-align: center;
+ border-radius: 20px;
+ font-size: 14px;
+}
+.pic{
+    width: 40%;
+    padding-top: 30px;
+}
+.select{
+    background-color: hsl(212, 14%, 21%);
+    width: 200px;
+    height: 30px;
+    color: hsl(25, 96%, 60%) ;
+    border-radius: 20px;
+    margin-left:70px ;
+}
+.para{
+    position: relative;top: 5px;
+}
+.paragraph{
+    width: 90%;
+    margin-left: 15px;
+    line-height: 20px;
+    color: rgb(156, 155, 155);
+}
